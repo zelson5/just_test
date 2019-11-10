@@ -1,0 +1,43 @@
+$red: #ff0000;
+$blue:#0000ff;
+$gray: #cccccc;
+$color1: #00ff00;
+$color2: #110044;
+$color3: #dddd;
+$color4:  #9999;
+$color5: #666116;
+$color6: #bbbb11;
+
+$colors: ($red, $blue, $gray, $color1, $color2, $color3, $color4, $color5, $color6);
+ html {
+     background-color:rosybrown;
+ }
+ .button {
+    margin: 0 auto;
+    display: block;
+    border: 3px grey solid;
+    font-family: tahoma;
+    font-size: 14px;
+    border-radius: 10px;
+    height:50px;
+    width:80px;
+    background-color: #ccc;
+    transition: width 0.4s ease-in-out;
+    text-align:center;
+
+    }
+.input {
+    margin: 0 auto;
+    display: block;
+    border: none;
+    height:50px;
+    width: 280px;
+    border-bottom: 3px solid grey;
+    border-radius: 10px;
+    background-color: #ccc;
+    padding: 12px 20px;
+    text-decoration: none;
+
+  
+    
+}

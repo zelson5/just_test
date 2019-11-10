@@ -1,0 +1,11 @@
+@import "mixins";
+@import "colors";
+p {
+ @include font();
+}
+h1 {
+    @include font(36px);
+}
+ h3 {
+     @include font(20px, $blue)
+ }

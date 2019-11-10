@@ -1,0 +1,12 @@
+// mixina - zdefiniowany, reuzywalny fragment kodu, funkcja w przeciwienstwie do mixiny zawsze cos zwracaja
+@mixin font($size:14px, $color:#000, $weight: normal, $style:normal, $family:sans-serif) {
+font-size: $size;
+color:$color;
+font-weight:$weight;
+font-style: $style;
+font-family: $family;
+}
+
+@function toPx($val) {
+    @return 1px * $val;
+}
